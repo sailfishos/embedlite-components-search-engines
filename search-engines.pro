@@ -1,5 +1,5 @@
 TEMPLATE = aux
-SEARCH_ENGINE_PATH = mozembedlite/chrome/embedlite/content
+include(common.pri)
 
 search-engines.path = $$[QT_HOST_LIBS]/$$SEARCH_ENGINE_PATH
 search-engines.files = bing.xml \
