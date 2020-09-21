@@ -20,7 +20,7 @@ BuildRequires: qt5-qmake
 
 %build
 
-%qtc_qmake5 -r VERSION=%{version}
+%qtc_qmake5 -r VERSION=%{version} embedlite-components-search-engines.pro
 %qtc_make %{?_smp_mflags}
 
 %install
