@@ -2,8 +2,8 @@ TEMPLATE = aux
 include(common.pri)
 
 search-engines.path = $$[QT_HOST_LIBS]/$$SEARCH_ENGINE_PATH
-search-engines.files = *.xml \
-                        list.json
+search-engines.files = list.json \
+    google
 
 INSTALLS += search-engines
 

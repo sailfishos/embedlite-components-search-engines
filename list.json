@@ -1,785 +1,783 @@
 {
   "default": {
+    "searchDefault": "Google",
+    "searchOrder": ["Google"],
     "visibleDefaultEngines": [
-      "google", "bing", "baidu", "duckduckgo", "sputnik", "startpage", "yahoo", "yandex"
+      "google-b-d"
     ]
   },
   "regionOverrides": {
     "US": {
-      "google": "google-2018"
-    },
-    "KZ": {
-      "google": "google-nocodes"
-    },
-    "BY": {
-      "google": "google-nocodes"
-    },
-    "RU": {
-      "google": "google-nocodes"
-    },
-    "TR": {
-      "google": "google-nocodes"
-    },
-    "UA": {
-      "google": "google-nocodes"
-    },
-    "CN": {
-      "google": "google-nocodes"
+      "google-b-d": "google-b-1-d"
     }
   },
   "locales": {
+    "en-US": {
+      "default": {
+        "visibleDefaultEngines": [
+          "google-b-d"
+        ]
+      },
+      "experimental-hidden": {
+        "visibleDefaultEngines": [
+          "google", "google-b-1-e", "google-b-e"
+        ]
+      }
+    },
     "ach": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
+        ]
+      }
+    },
+    "af": {
+      "default": {
+        "visibleDefaultEngines": [
+          "google-b-d"
         ]
       }
     },
     "an": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "ar": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
-        ]
-      }
-    },
-    "as": {
-      "default": {
-        "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "ast": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "az": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "be": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "bg": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
+        ]
+      }
+    },
+    "bn": {
+      "default": {
+        "visibleDefaultEngines": [
+          "google-b-d"
         ]
       }
     },
     "bn-BD": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "bn-IN": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
+        ]
+      }
+    },
+    "bo": {
+      "default": {
+        "visibleDefaultEngines": [
+          "google-b-d"
         ]
       }
     },
     "br": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
+        ]
+      }
+    },
+    "brx": {
+      "default": {
+        "visibleDefaultEngines": [
+          "google-b-d"
         ]
       }
     },
     "bs": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "ca": {
       "default": {
         "visibleDefaultEngines": [
-          "google"
+          "google-b-d"
+        ]
+      }
+    },
+    "ca-valencia": {
+      "default": {
+        "visibleDefaultEngines": [
+          "google-b-d"
         ]
       }
     },
     "cak": {
       "default": {
         "visibleDefaultEngines": [
-          "google"
+          "google-b-d"
+        ]
+      }
+    },
+    "ckb": {
+      "default": {
+        "visibleDefaultEngines": [
+          "google-b-d"
         ]
       }
     },
     "cs": {
       "default": {
+        "searchOrder": ["Google"],
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "cy": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "da": {
       "default": {
         "visibleDefaultEngines": [
-          "google"
+          "google-b-d"
         ]
       }
     },
     "de": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "dsb": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "el": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
+        ]
+      }
+    },
+    "en-CA": {
+      "default": {
+        "visibleDefaultEngines": [
+          "google-b-d"
+        ]
+      },
+      "experimental-hidden": {
+        "visibleDefaultEngines": [
+          "google", "google-b-1-e", "google-b-e"
         ]
       }
     },
     "en-GB": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
-        ]
-      },
-      "RU": {
-        "visibleDefaultEngines": [
-          "google", "bing"
-        ]
-      }
-    },
-    "en-US": {
-      "default": {
-        "visibleDefaultEngines": [
-          "google", "bing"
-        ]
-      },
-      "RU": {
-        "visibleDefaultEngines": [
-          "google", "bing"
-        ]
-      },
-      "experimental-hidden": {
-        "visibleDefaultEngines": [
-          "google-2018", "duckduckgo"
-        ]
-      }
-    },
-    "en-ZA": {
-      "default": {
-        "visibleDefaultEngines": [
-          "google"
+          "google-b-d"
         ]
       }
     },
     "eo": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "es-AR": {
       "default": {
         "visibleDefaultEngines": [
-          "google"
+          "google-b-d"
         ]
       }
     },
     "es-CL": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "es-ES": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "es-MX": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
-        ]
-      },
-      "experimental-hidden": {
-        "visibleDefaultEngines": [
-          "google"
+          "google-b-d"
         ]
       }
     },
     "et": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m"
+          "google-b-d"
         ]
       }
     },
     "eu": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "fa": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "ff": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "fi": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m"
+          "google-b-d"
         ]
       }
     },
     "fr": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "fy-NL": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m"
-        ]
-      },
-      "experimental-hidden": {
-        "visibleDefaultEngines": [
-          "google"
+          "google-b-d"
         ]
       }
     },
     "ga-IE": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m"
+          "google-b-d"
         ]
       }
     },
     "gd": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "gl": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "gn": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "gu-IN": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "he": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "hi-IN": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "hr": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "hsb": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "hu": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m"
+          "google-b-d"
+        ]
+      }
+    },
+    "hye": {
+      "default": {
+        "visibleDefaultEngines": [
+          "google-b-d"
         ]
       }
     },
     "hy-AM": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "ia": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "id": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "is": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "it": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
+        ]
+      }
+    },
+    "ja-JP-macos": {
+      "default": {
+        "searchOrder": ["Google"],
+        "visibleDefaultEngines": [
+          "google-b-d"
         ]
       }
     },
     "ja": {
       "default": {
+        "searchOrder": ["Google"],
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "ka": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "kab": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "kk": {
       "default": {
         "visibleDefaultEngines": [
-          "yandex", "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "km": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "kn": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "ko": {
       "default": {
         "visibleDefaultEngines": [
-          "google"
+          "google-b-d"
         ]
       }
     },
     "lij": {
       "default": {
         "visibleDefaultEngines": [
-          "google"
+          "google-b-d"
         ]
       }
     },
     "lo": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "lt": {
       "default": {
         "visibleDefaultEngines": [
-          "google"
+          "google-b-d"
         ]
       }
     },
     "ltg": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "lv": {
       "default": {
         "visibleDefaultEngines": [
-          "google"
-        ]
-      }
-    },
-    "mai": {
-      "default": {
-        "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "meh": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
-    "ml": {
+    "mk": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "mr": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "ms": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "my": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "nb-NO": {
       "default": {
         "visibleDefaultEngines": [
-          "google"
+          "google-b-d"
         ]
       }
     },
     "ne-NP": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "nl": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
-        ]
-      },
-      "experimental-hidden": {
-        "visibleDefaultEngines": [
-          "google-nl"
+          "google-b-d"
         ]
       }
     },
     "nn-NO": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m"
+          "google-b-d"
         ]
       }
     },
     "oc": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing", "wikipedia-oc", "wiktionary-oc"
-        ]
-      }
-    },
-    "or": {
-      "default": {
-        "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "pa-IN": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "pl": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "pt-BR": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
-        ]
-      },
-      "experimental-hidden": {
-        "visibleDefaultEngines": [
-          "google-br"
+          "google-b-d"
         ]
       }
     },
     "pt-PT": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m"
+          "google-b-d"
         ]
       }
     },
     "rm": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "ro": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m"
+          "google-b-d"
         ]
       }
     },
     "ru": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "yandex-ru"
+          "google-b-d"
+        ]
+      }
+    },
+    "scn": {
+      "default": {
+        "visibleDefaultEngines": [
+          "google-b-d"
+        ]
+      }
+    },
+    "si": {
+      "default": {
+        "visibleDefaultEngines": [
+          "google-b-d"
         ]
       }
     },
     "sk": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m"
+          "google-b-d"
         ]
       }
     },
     "sl": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m"
+          "google-b-d"
         ]
       }
     },
     "son": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "sq": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "sr": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "sv-SE": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m"
+          "google-b-d"
         ]
       }
     },
     "ta": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "te": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "th": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m"
+          "google-b-d"
         ]
       }
     },
     "tl": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
+          "google-b-d"
         ]
       }
     },
     "tr": {
       "default": {
         "visibleDefaultEngines": [
-          "yandex-tr", "google-b-m"
+          "google-b-d"
         ]
       }
     },
     "trs": {
       "default": {
-        "searchDefault": "Google",
         "visibleDefaultEngines": [
-          "bing", "google"
+          "google-b-d"
         ]
       }
     },
     "uk": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "yandex-market"
+          "google-b-d"
         ]
       }
     },
     "ur": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "uz": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "vi": {
       "default": {
         "visibleDefaultEngines": [
-          "google"
+          "google-b-d"
         ]
       }
     },
     "wo": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "xh": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "bing"
-        ]
-      }
-    },
-    "zam": {
-      "default": {
-        "visibleDefaultEngines": [
-          "google", "bing"
+          "google-b-d"
         ]
       }
     },
     "zh-CN": {
       "default": {
         "visibleDefaultEngines": [
-          "google", "baidu", "bing"
+          "google-b-d"
         ]
       }
     },
     "zh-TW": {
       "default": {
         "visibleDefaultEngines": [
-          "google-b-m", "bing"
-        ]
-      },
-      "experimental-hidden": {
-        "visibleDefaultEngines": [
-          "duckduckgo"
+          "google-b-d"
         ]
       }
     }
