@@ -1,1 +1,1 @@
-SEARCH_ENGINE_PATH = mozembedlite/chrome/embedlite/content/search-plugins
+SEARCH_ENGINE_PATH = mozembedlite/chrome/embedlite/content
