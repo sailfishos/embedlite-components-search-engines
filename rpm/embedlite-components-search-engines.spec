@@ -6,7 +6,6 @@ License: MPLv2
 URL:     https://github.com/sailfishos/embedlite-components-search-engines
 BuildArch: noarch
 Source0: %{name}-%{version}.tar.gz
-BuildRequires: qt5-qmake
 
 %description
 %{summary}.
@@ -14,13 +13,9 @@ BuildRequires: qt5-qmake
 %prep
 %setup -q -n %{name}-%{version}
 
-%build
-
-%qmake5 -r VERSION=%{version} embedlite-components-search-engines.pro
-%make_build
-
 %install
-%qmake5_install
+mkdir -p %{buildroot}%{_libdir}/mozembedlite/chrome/embedlite/content
+install -m 644 -p -t %{buildroot}%{_libdir}/mozembedlite/chrome/embedlite/content *.xml
 
 %files
 %{_libdir}/mozembedlite/chrome/embedlite/content/*
