@@ -6,7 +6,6 @@ search-engines.files = bing.xml \
                     ecosia.xml \
                     google.xml \
                     qwant.xml \
-                    yahoo.xml \
-                    yandex.xml
+                    yahoo.xml
 
 INSTALLS += search-engines
